@@ -1,0 +1,118 @@
+
+/*type selectors*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial,helvetica,sans-serif;
+
+}
+h1{
+	margin: 0;
+}
+h2,h4 {
+color: #3FBF50;
+}
+h3{
+	color: lime;
+}
+/*class selectors*/
+
+.container{
+	width: 50em;
+	margin: auto;
+	
+}
+.nav{
+	background: bisque;
+	padding: 1em 3em;
+	
+}
+.intro{
+	font-size: 1.2em;
+	color: white;
+}
+
+/*id selectors*/
+#header, #footer{
+color: white;
+background: #3FBF50;
+padding: 0;
+
+
+}
+#main{
+margin: 1em 2em;
+
+}
+
+.one{
+	
+	padding: 3em 2em;
+	height: 500px;
+	border: 5px #3FBF50  solid;
+
+	color: #ffffb3;
+	background: url(img3/14.jpg);
+
+}
+}
+
+.six{
+	background: bisque;
+}
+.did{
+	color: white;
+}
+.momo{
+	background: url(img3/10.jpg);
+	background-repeat: no-repeat;
+	height: 400px;
+	color: white;
+}
+	
+
+
+
+
+/*universal selectors*/
+*/*{
+	border: 4px lime;
+	margin
+}
+*/
+
+
+
+/*descendant selectors*/
+.nav li{
+	display: inline;
+	margin-right: 14px;
+}
+.nav li a {
+	color: red;
+}
+
+
+/*child selectors*/
+
+.nav li > a {
+	t
+}
+
+
+
+
+/*adjacent-sibling selectors*/
+
+h3 + p {
+	color:bisque; 
+}
+
+
+
+/*link-pseudo class selectors*/
+a:link{color: green;}
+a:visited{color:orange;}
+a:focus{color: blue;}
+a:hover{color: red;}
+a:active{color: pink;}
