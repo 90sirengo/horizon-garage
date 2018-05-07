@@ -1,67 +1,595 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>
-		CSS Asvanced selectors</title>
-			<link rel="stylesheet" type="text/css" href="style.css">
+<title>Gataya investment</title>
+<meta charset="UTF-8">
+<!--Style Sheet-->
+<link rel="stylesheet" type="text/css" href="custom.css">
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/sequence.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<!--Special Styles-->
+<link rel="stylesheet" type="text/css" href="css/style.css" title="default" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/elegant.css" title="elegant" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/modern.css" title="modern" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="css/colorfull.css" title="colorfull" media="screen">
+<!--Responsive-->
+<link rel="stylesheet" type="text/css" href="css/responsitive.css" media="all">
+<!--Google fonts-->
+<link href='http://fonts.googleapis.com/css?family=Russo+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<!--Javascript-->
+<script src="js/jquery-1.7.2.min.js"></script>
+<!--[if lt IE9]>
+<script src="js/html5.js"></script>
+<script src="js/IE7.js"></script>
+<![endif]-->
 </head>
 <body>
-<div class="container">
-	<div id="header">
-		<h1>  Horizon Garage</h1>
-	</div>
+<header class="dark">
+  <nav>
+    <div id="logo">
+      <h1>Gataya <span class="inv">investment</span> </h1>
+    </div>
+    <div id="menu">
+      <ul>
+        <li> <a href="#slider" >Home</a> <a href="#services" >Services</a> <a href="#work">Products</a> <a href="#about">About</a>  <a href="#contact">Contact</a> </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!--<div id="switcher"> <a class="switch-button open"></a>
+  <div class="content">
+    <ul class="headercolor">
+      <span>Header color</span>
+      <li class="red"><a href="#light">Light</a></li>
+      <li class="blue"><a href="#dark">Dark</a></li>
+    </ul>
+    <ul class="theme">
+      <span>Theme</span>
+      <li><a href="#" rel="default" class="styleswitch">default</a></li>
+      <li><a href="#" rel="elegant" class="styleswitch">elegant</a></li>
+      <li><a href="#" rel="modern" class="styleswitch">modern</a></li>
+      <li><a href="#" rel="colorfull" class="styleswitch">colorfull</a></li>
+    </ul>
+  </div>
+</div>-->
+<section id="slider">
+  <div id="sequence-preloader">
+    <div class="preloading"> <img src="images/icons/loader.gif" alt=""> </div>
+  </div>
+  <div id="slideshow"> <img class="prev" src="images/prev.png" alt=""> <img class="next" src="images/next.png" alt="">
+    <ul>
+      <li> <img class="backgrd" src="images/bg/glass.jpg" alt=""> <img class="overlay" src="images/bg/ice.png" alt=""><img class="image1" src="images/hrt1.jpg" alt=""> <img class="image2" src="images/agr2.jpg" alt="">
+        <div class="info">
+          <h2>Horticulture</h2>
+          <p>We export horticultural products<br/>
+            Pyrethrum,Coffee and flowers </p>
+        </div>
+        <a href="#contact" class="more">BUY</a> </li>
+      <li> <img class="backgrd" src="images/bg/orange.jpg" alt=""> <img class="image1" src="images/cab1.jpg" alt=""> <img class="image2" src="images/wmel2.Jpg" alt="">
+        <div class="info">
+          <h2>Agriculture</h2>
+          <p>We also sell agriculture products for local market<br/>
+            Fruits,cereals and vegetables </p>
+        </div>
+        <a href="#contact" class="more">BUY</a> </li>
+      <li> <img class="backgrd" src="images/bg/blue.jpg" alt=""> <img class="image1" src="images/GLD2.JPG" alt=""> <img class="image2" src="images/dm2.jpg" alt="">
+        <div class="info blue">
+          <h2>Mineral</h2>
+          <p>we buy,cut,value and sell gemstones<br/>
+            Gold,Emerald,Diopside and Gypsum </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="services" class="container dark">
+  <div class="content">
+    <div class="title icon-power">
+      <h1>Services <span>What we offer</span></h1>
+      <div class="description"></div>
+    </div>
+    <div class="full">
+      <div class="column-half">
+        <p><a href="alternate.html">Our team</a>,prides itself in the strengths of fresh produce trade which includes the capacity to effectively combine a variety of fruits,vegetables and cereals making us a one stop shop for importers in the region and in international markets.We also provide fresh/frozen carcasses of animals and a wide range of their by products. .</p>
+      </div>
+      <div class="column-half">
+        <div class="image"><img src="images/tom3.jpg" alt=""></div>
+      </div>
+    </div>
+    <div class="full">
+      <div class="column-one-forth">
+        <ul class="list">
+          <h3>Horticultural</h3>
+          <li>We grow horticultural products</li>
+          <li>We do the packaging</li>
+          <li>We handle the legalities</li>
+          <li>We are always on time</li>
+        </ul>
+      </div>
+      <div class="column-one-forth">
+        <ul class="list">
+          <h3>Agricultural</h3>
+          <li>We grow vegetables</li>
+          <li>We sell them</li>
+          <li>We do regular supplies</li>
+          <li>we have our own transport</li>
+        </ul>
+      </div>
+      <div class="column-one-forth">
+        <ul class="list">
+          <h3>Mineral</h3>
+          <li>We buy Gemstones</li>
+          <li>We cut gemstones</li>
+          <li>We value gemstones</li>
+          <li>We sell gemstones</li>
+        </ul>
+      </div>
+     
+    </div>
+  </div>
+</section>
+<section id="work" class="container light">
+  <div class="content">
+    <div class="title icon-preview">
+      <h1>products<span>Browse our product catalogue</span></h1>
+      <div class="description">
+        <nav id="filter"></nav>
+      </div>
+    </div>
+    <article class="portfolio">
+      <ul id="stage">
+        <li data-tags="horticultural">
+          <div class="thumb"><a rel="lightbox" href="images/av2.jpg"><img src="images/av2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Avocados</h3>
+            <p>Grade 1 and 2 available</p>
+          </div>
+        </li> 
+        <li data-tags="horticultural">
+          <div class="thumb"><a rel="lightbox" href="images/mac3.jpg"><img src="images/mac3.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Macademia</h3>
+            <p>Wesell Macademia nuts</p>
+          </div>
+        </li> 
+        <li data-tags="horticultural">
+          <div class="thumb"><a rel="lightbox" href="images/agr2.jpg"><img src="images/agr2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Strawberries</h3>
+            <p>Delicious strawberries</p>
+          </div>
+        </li> 
+        <li data-tags="horticultural">
+          <div class="thumb"><a rel="lightbox" href="images/agr3.jpg"><img src="images/agr3.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Citrus</h3>
+            <p>citrus fruits</p>
+          </div>
+        </li> 
+        <li data-tags="horticultural">
+          <div class="thumb"><a rel="lightbox" href="images/av2.jpg"><img src="images/av2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Avocados</h3>
+            <p>Grade 1 and 2 available</p>
+          </div>
+        </li>
+        
+        
+         <li data-tags="horticultural">
+          <div class="thumb"><a rel="lightbox" href="images/cffe4.jpg"><img src="images/cffe4.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>coffee</h3>
+            <p>We sell coffee beans</p>
+          </div>
+        </li>
+        <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/car3.jpg"><img src="images/car3.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>carrots</h3>
+            <p>We sell fresh carrots</p>
+          </div>
+        </li>
+        <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/frb2.jpg"><img src="images/frb2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>French beans</h3>
+            <p>We have quality french beans</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/tom4.jpg"><img src="images/tom4.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Tomatoes</h3>
+            <p>We have all types of tomatoes</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/pmel2.jpg"><img src="images/pmel2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>pepino melons</h3>
+            <p>Pepino meons</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/cab2.jpg"><img src="images/cab2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Cabbages</h3>
+            <p>F=fresh cabbages</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/pas2.jpg"><img src="images/pas2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Passion fruits</h3>
+            <p>all types of passion fruits</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/pep3.jpg"><img src="images/pep3.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Chillies</h3>
+            <p>We also have peppers</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/mz1.jpg"><img src="images/mz1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Corn</h3>
+            <p>We also sell maize</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/snb1.jpg"><img src="images/snb1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Garden peas</h3>
+            <p>We have snow peas</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/wmel3.jpg"><img src="images/wmel3.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Water melons</h3>
+            <p>We sell water melons</p>
+          </div>
+        </li> <li data-tags="agricultural">
+          <div class="thumb"><a rel="lightbox" href="images/agr4.jpg"><img src="images/agr4.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Hoho</h3>
+            <p>We also sell hoho</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/rhod2.jpg"><img src="images/rhod2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Rhodonite</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/rhodochro2.jpg"><img src="images/rhodochro2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Rhodocrosite</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/cq.jpg"><img src="images/cq.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Chatoyant Quartz</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/enst.jpg"><img src="images/enst.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Enstatite</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/rhodochro2.jpg"><img src="images/rhodochro2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Grossular garnet</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/petal2.jpg"><img src="images/petal2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Petalite</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/plasm1.jpg"><img src="images/plasm1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Plasma chalcedony</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/dm1.jpg"><img src="images/dm1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Diamond</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/chrso1.jpg"><img src="images/chrso1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Chrysoprase</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/micro2.jpg"><img src="images/micro2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Microcline</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/gld1.jpg"><img src="images/gld1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Gold</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/diop1.jpg"><img src="images/diop1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Tsavolite</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/em2.jpg"><img src="images/em2.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Emerald</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/gyp1.jpg"><img src="images/gyp1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Tanzanite</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/gyp1.jpg"><img src="images/gyp1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>zilcon</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/gyp1.jpg"><img src="images/gyp1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Opal</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+         <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/gyp1.jpg"><img src="images/gyp1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Ruby</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/gyp1.jpg"><img src="images/gyp1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Beryls</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+        <li data-tags="mineral">
+          <div class="thumb"><a rel="lightbox" href="images/gyp1.jpg"><img src="images/gyp1.jpg" alt=""></a></div>
+          <div class="info">
+            <h3>Saphires</h3>
+            <p>A gemstone</p>
+          </div>
+        </li>
+      </ul>
+    </article>
+  </div>
+</section>
+<section id="about" class="container dark">
+  <div class="content">
+    <div class="title icon-and">
+      <h1>About <span> Learn more about us</span></h1>
+      <div class="description">
+        <p>We srtive to open up africas' agricultural and mineral riches to the world</p>
+      </div>
+    </div>
+    <div class="full">
+      <div class="image"><img src="images/sample/office.jpg" alt=""></div>
+      <div class="divider"></div>
+      <div class="column-half">
+        <div class="subtitle">
+          <h3>Story:</h3>
+        </div>
+        <p>Pork chop pancetta pork, filet mignon venison jerky corned beef pork belly cow speck turducken. Ribeye ham fatback, jerky boudin tenderloin biltong speck tail ham hock kielbasa corned beef short ribs meatloaf prosciutto. Hamburger beef andouille speck pastrami. Turkey tri-tip chicken t-bone, bresaola filet mignon tenderloin prosciutto sausage capicola chuck drumstick. Tail ground round strip steak spare ribs, shoulder pig filet mignon. Spare ribs corned beef kielbasa pig, swine ground round boudin bresaola. Beef spare ribs corned beef, jowl ground round speck rump sausage shoulder venison tri-tip turkey kielbasa capicola.</p>
+      </div>
+      <div class="column-half last">
+        <div class="subtitle">
+          <h3>Skills:</h3>
+        </div>
+        <ul id="skills">
+          <li><span title="50"></span>
+            <p> Effectivness<strong>50%</strong></p>
+          </li>
+          <li><span title="98"></span>
+            <p>Safety <strong>98%</strong></p>
+          </li>
+          <li><span title="55"></span>
+            <p>efficency <strong>55%</strong></p>
+          </li>
+          <li><span title="100"></span>
+            <p>Quality <strong>100%</strong></p>
+          </li>
+          <li><span title="75"></span>
+            <p>Precision <strong>75%</strong></p>
+          </li>
+          <li><span title="80"></span>
+            <p>Customer focus <strong>80%</strong></p>
+          </li>
+        </ul>
+        <!--END skills-->
+      </div>
+      <div class="column-half">
+        <div class="subtitle">
+          <h3>Statements:</h3>
+        </div>
+        <div class="accordion" id="list1">
+          <!--Accordion-->
+          <a>Vision</a>
+          <div>
+            <p>We ae dedicated to the highest standards of safety and quality with commitment to provide high quality services and products to customers</p>
+          </div>
+          <a>Mission</a>
+          <div>
+            <p>Our mission is to reliably and effectively produce and export horticultural and mineral products that are of high quality,safe and legal to our customers as per their requirments while ensuring constant flow of relevant information to the customer all times</p>
+          </div>
+          <a>Philosophy</a>
+          <div>
+            <p>"exceptional quality......prime safety"</p>
+          </div>
+        </div>
+        <!--Accordion end-->
+      </div>
+      <div class="column-half last">
+        <div class="subtitle">
+          <h3>Sectors:</h3>
+        </div>
+        <ul class="tabs-nav">
+          <li><a href="horticultural.html">Horticultural</a></li>
+          <li><a href="agricultural.html">Agricltural</a></li>
+          <li><a href="gemstones.html">Mineral</a></li>
+        </ul>
+        <!-- end tab navigation -->
+        <div class="tabs-container">
+          <div class="tab-content" id="tab1">
+            <p>We export horticultural products to several countries.Visit our products page to browse our product catalogue.</p>
+          </div>
+          <!-- end tab1 -->
+          <div class="tab-content" id="tab2">
+            <p>We also sell vegetables and cereals to local and regional markets.</p>
+          </div>
+          <!-- end tab2 -->
+          <div class="tab-content" id="tab3">
+            <p>We buy,sell,value and cut all gemstones.</p>
+          </div>
+          <!-- end tab3 -->
+        </div>
+        <!-- end tab container -->
+      </div>
+      
+    </div>
+  </div>
+</section>
 
-	<div class="momo">
+<section id="contact" class="container dark second">
+  <div class="content">
+    <div class="title icon-phone">
+      <h1>Contact <span>Get in touch with us</span></h1>
+      <div class="description"> <a href="#"><img src="images/icons/instagram.png" alt="" class="social"></a> <a href="#"><img src="images/icons/flickr.png" alt="" class="social"></a> <a href="#"><img src="images/icons/dribbble.png" alt="" class="social"></a></div>
+    </div>
+    <div class="full">
+      <div id="contact-form">
+        <form id="contact-us" action="gataya.php" method="POST">
+          <div class="column-half">
+            <div class="formblock">
+              <input type="text" name="contactName" id="contactName" value="" class="txt requiredField" placeholder="Name:">
+            </div>
+            <div class="formblock">
+              <input type="text" name="email" id="email" value="" class="txt requiredField email" placeholder="Email:">
+            </div>
+            
+            <div class="formblock">
+              <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder="Message:"></textarea>
+            </div>
+            <button name="submit" type="submit" class="subbutton"></button>
+          </div>
+          <div class="column-half last">
+            <div id="map"></div>
+            <p> Contact details; <br>
+              Telephone: +254 721 646537 <br> <br>
 
-	<div class="nav">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#" style="color: red">About us</a></li>
-			<li><a href="#">Contact us</a></li>
-		</ul>
-	</div>
-	<div id="main">
-	<h2> Offering Quality and Timely Garage services</h2>
-	<p class="intro">
-		Horizon Garage specializes in offering quality auto-repairs using latest technology trends.we also do recovery and p.s.v. fleet management.you can also use our Dial-a-Mech. app for emergency services and breakdowns.Our team will  get to you shortly.
-	</p>
-	<br><br><br>
-	<center><h3>Repairs||Service||Accident||Paintwork||Dial-a-Mech||</h3></center>
-	
-	<p>We offer garage services ranging from vehicle servicing, repair of vehicles invoved in accidents,matatu graffiti and sound systems</p>
+              Facebook: gataya investment <br> <br>
 
-	</div>
-	</div>
-	<br>
-	<ul class="six">
-		<li><a href="http://www.creativesgarage.org" target="_blank">Service</a></li>
-		<li><a href="http://https://nairobigarage.com" target="_blank">Repairs</a></li>
-		<li><a href="http://www.apexmotormart.co.ke/motor-repair...vehicle-car-auto-body-repair-nairobi" target="_blank">Paint-works</a></li>
-		<li><a href="http://cmskenya.co.ke/" target="_blank">Dial-a-Mech</a></li>
+              Email: info@gatayainvestment.com <br> <br>
+
+              Website: www.gatayainvsetment.com <br> <br>
+
+              Twitter: @gatayainvestment
 
 
-
-	</ul>
-	      <marquee><h3> OUR SERVICES</h3></marquee>
-		
-	<div class="one">
-	<h4>Repairs</h4>
-	<p>
-		We offer repairs services if all makes and models of vehicle.we also do system diagnosis
-	</p>
-		<h4>Service</h4>
-	<p>We do regular servicing of all types of vehicles both for organizations and also for matatu saccos</p>
-		<h4>Accident-repairs</h4>
-	<p>We also repair vehicles involved in accidents and </p>
-		<h4>Paint-works</h4>
-	<p>We do all sorts of paintworks ranging from matatu graffit to body color</p>
-		<h4>Dial-a-Mech</h4>
-	<p>This application offers you emergency services where incase of a breakdown you can be able to get a mechanic to attend to you within the shortest time possible</p>
-	</div>	
-	
-	<div id="footer">
-		copyright&copy; Horizon Garage
-	</div>
-</div>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer> <a href="#" class="twitter"> <span class="twitter"></span>
+  <p class="twitter_status"></p>
+  </a>
+  <section class="footer">
+    <p>&copy; Copyright 2012 <a href="#">Gataya investment</a> All Rights Reserved | Website Template By <a target="_blank" href="../http://github/90sirengo/">Sesire Business Tecnnologies</a></p>
+  </section>
+</footer>
+<!--Javascript-->
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/sequence.jquery-min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/quicksand.js"></script>
+<script src="js/jquery.masonery.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/jquery.accordion.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/styleswitch.js"></script>
+<script src="js/custom.js"></script>
+<!--Sequence slider-->
+<script>
+var options = {
+    autoPlay: true,
+    nextButton: ".next",
+    prevButton: ".prev",
+    preloader: "#sequence-preloader",
+    prependPreloader: false,
+    prependPreloadingComplete: "#sequence-preloader, #slideshow",
+    animateStartingFrameIn: true,
+    transitionThreshold: 500,
+    nextButtonAlt: " ",
+    prevButtonAlt: " ",
+    afterPreload: function () {
+        $(".prev, .next").fadeIn(500);
+        if (!slideShow.transitionsSupported) {
+            $("#slideshow").animate({
+                "opacity": "1"
+            }, 1000);
+        }
+    }
+};
+var slideShow = $("#slideshow").sequence(options).data("sequence");
+if (!slideShow.transitionsSupported || slideShow.prefix == "-o-") {
+    $("#slideshow").animate({
+        "opacity": "1"
+    }, 1000);
+    slideShow.preloaderFallback();
+}
+</script>
+<script>
+new GMaps({
+    div: '#map',
+    lat: 44.79913,
+    lng: 20.47662
+});
+</script>
+<script>
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='js/jquery.js'%3E%3C/script%3E"));
+}
+</script>
 </body>
 </html>
